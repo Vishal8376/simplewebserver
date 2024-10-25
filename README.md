@@ -25,10 +25,12 @@ Testing the webserver.
 '''
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
-content='''
+content='''git 
 <!doctype html>
 <html>
+<head>
     <title>LAPTOP</title>
+    </head>
     <body>
         LAPTOP CONFIG
         <TABLE border="10" celpadding="15">
