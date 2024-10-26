@@ -22,10 +22,11 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-'''
+```
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
-content=
+content='''
+<!DOCTYPE html>
 <html>
 <head>
     <title>LAPTOP</title>
@@ -42,6 +43,7 @@ content=
         </TABLE>
     </body>
 </html>
+'''
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -62,3 +64,4 @@ httpd.serve_forever()
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
+```
