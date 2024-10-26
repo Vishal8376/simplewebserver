@@ -26,7 +26,6 @@ Testing the webserver.
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content=
-"""
 <html>
 <head>
     <title>LAPTOP</title>
@@ -43,7 +42,6 @@ content=
         </TABLE>
     </body>
 </html>
-"""
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
