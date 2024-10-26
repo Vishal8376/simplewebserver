@@ -25,7 +25,7 @@ Testing the webserver.
 '''
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
-content="""
+content=
 """
 <!doctype html>
 <html>
@@ -59,7 +59,7 @@ server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 
-"""
+'''
 ## OUTPUT:
 ![alt text](image.png)
 
