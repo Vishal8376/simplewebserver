@@ -59,7 +59,7 @@ httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 ```
 ## OUTPUT:
-![alt text](image.png)
+![alt text](<Screenshot 2024-10-26 112004.png>)
 
 
 ## RESULT:
